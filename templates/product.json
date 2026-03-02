@@ -1,0 +1,485 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor_UhYyTr": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {}
+        },
+        "text_3bQ4z4": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>{{ product.vendor }} | </p>"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": true
+          }
+        },
+        "inventory_t6aqcA": {
+          "type": "inventory",
+          "settings": {
+            "low_inventory_threshold": 10
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "offer_wRBKg7": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/avatar-27.png",
+            "icon_width": 40,
+            "title": "198.196+ wear our pieces & defeat conformity",
+            "content": "",
+            "background": "#f0eeef",
+            "text_color": "rgba(0,0,0,0)"
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "disabled": true,
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "disabled": true,
+          "settings": {}
+        },
+        "separator": {
+          "type": "separator",
+          "disabled": true,
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "collapse_content": true
+          }
+        },
+        "collapsible_text_EJwwTa": {
+          "type": "collapsible_text",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "designed by Maximilian Abraham (@staycold)",
+            "content": "<p>Share some content to your customers about your products.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_text_FhDwJN": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "picto-comment",
+            "icon_width": 20,
+            "title": "Jacket designed by Maximilian Abraham (@staycold)",
+            "content": "{{ product.description }}<p>Our model  is cm (X) and wears size </p>",
+            "page": ""
+          }
+        },
+        "collapsible_text_JbwjHX": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "picto-document",
+            "icon_width": 20,
+            "title": "Features",
+            "content": "<p>X</p>",
+            "page": ""
+          }
+        },
+        "collapsible_text_fHgk6i": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "picto-validation",
+            "icon_width": 20,
+            "title": "Oversized Fit: What's my Size?",
+            "content": "<p>X</p>",
+            "page": ""
+          }
+        },
+        "collapsible_text_hn6Ct9": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "picto-truck",
+            "icon_width": 20,
+            "title": "Worldwide Delivery within ~1 - 2 business days",
+            "content": "<p>X</p>",
+            "page": ""
+          }
+        },
+        "collapsible_text_Wy4NzT": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "picto-return",
+            "icon_width": 20,
+            "title": "30 Days Return Policy",
+            "content": "<p>X</p>",
+            "page": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor_UhYyTr",
+        "badges",
+        "text_3bQ4z4",
+        "title",
+        "price",
+        "inventory_t6aqcA",
+        "variant_picker",
+        "buy_buttons",
+        "offer_wRBKg7",
+        "rating",
+        "payment_terms",
+        "separator",
+        "description",
+        "collapsible_text_EJwwTa",
+        "collapsible_text_FhDwJN",
+        "collapsible_text_JbwjHX",
+        "collapsible_text_fHgk6i",
+        "collapsible_text_hn6Ct9",
+        "collapsible_text_Wy4NzT",
+        "quantity_selector"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "media_with_text_enH7fB": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_bFCViC": {
+          "type": "image",
+          "settings": {
+            "image": "{{ product.featured_image }}",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<p><strong>100% Cotton<br/></strong>Made from 100% High Quality Cotton.</p><p><strong>250 GSM<br/></strong>Comfy Heavy Fabric.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#eeeeee",
+            "background_gradient": "",
+            "text_color": "rgba(0,0,0,0)",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_bFCViC"
+      ],
+      "custom_css": [
+        ".media-with-text__media {mix-blend-mode: darken; background-color: #eeeeee;}",
+        "img {mix-blend-mode: darken;}"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": true,
+        "alternate_media_position": false,
+        "spacing": "none"
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "recommendations_count": 8,
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "You'll also love",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "image_link_blocks_Rrdjwn": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "item_8hywKA": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/ReignOfBlood_grain_-BomberJacket35.jpg",
+            "stretch_image": false,
+            "link_text": "NEW DROPS",
+            "link_url": "",
+            "background": "#ffffff",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_9fqBgf": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/ReignOfBlood_grain_-BomberJacket35.jpg",
+            "stretch_image": false,
+            "link_text": "NEW DROPS",
+            "link_url": "",
+            "background": "#ffffff",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_yTPwNm": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/ReignOfBlood_grain_-BomberJacket35.jpg",
+            "stretch_image": false,
+            "link_text": "NEW DROPS",
+            "link_url": "",
+            "background": "#ffffff",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_pqtpgU": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/ReignOfBlood_grain_-BomberJacket35.jpg",
+            "stretch_image": false,
+            "link_text": "NEW DROPS",
+            "link_url": "",
+            "background": "#ffffff",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_DhAKMw": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/ReignOfBlood_grain_-BomberJacket35.jpg",
+            "stretch_image": false,
+            "link_text": "NEW DROPS",
+            "link_url": "",
+            "background": "#ffffff",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "item_8hywKA",
+        "item_9fqBgf",
+        "item_yTPwNm",
+        "item_pqtpgU",
+        "item_DhAKMw"
+      ],
+      "custom_css": [
+        "img {border-radius: 999px; border: solid 1px #f2f2f2; width: 70px; max-height: 70px; object-fit: cover; object-position: center; margin: auto;}"
+      ],
+      "name": "Image link blocks",
+      "settings": {
+        "full_width": false,
+        "block_size": "small",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "faq_ycGkTp": {
+      "type": "faq",
+      "blocks": {
+        "item_eAttmW": {
+          "type": "item",
+          "settings": {
+            "title": "How do I cancel/ change my order?",
+            "content": "<p><em>Sadly we are not able to cancel/edit any orders once they have been paid. Our warehouse is operating automated to guarantee fast and error free shipping. However, you can exchange, or return any item using our</em><a href=\"https://staycoldapparel.returnscenter.com/\" target=\"_blank\" title=\"stay cold apparel returns center\">returns center.</a></p>"
+          }
+        },
+        "item_HtFX3F": {
+          "type": "item",
+          "settings": {
+            "title": "How do I return/ exchange an item?",
+            "content": "<p><em>Please use our returns center: </em><a href=\"https://staycoldapparel.returnscenter.com/\" target=\"_blank\" title=\"Stay Cold Apparel returns center\">https://staycoldapparel.returnscenter.com/</a><em>Just type in your email and order number, and select the items you want to return. If you are unsure about the process please don't hesitate to contact us.</em></p>"
+          }
+        },
+        "item_L6tK4F": {
+          "type": "item",
+          "settings": {
+            "title": "What if I need to change my address?",
+            "content": "<p><em>Once your order has been placed, we cannot make changes to your address anymore. If you made a mistake, or the the delivery was unsuccessful, please let us know. We can resend your parcel when it comes back to our warehouse.</em></p>"
+          }
+        },
+        "item_E8MrFK": {
+          "type": "item",
+          "settings": {
+            "title": "How long does shipping usually take?",
+            "content": "<p>Orders are dispatched from our warehouse in Germany within 2-3 business days and are processed by DHL and local post services.</p><p>Disclaimer: The following shipping estimations are based on our experience and subject to change. At peak times and due to unforeseen delays, your delivery may be late. We ask for your understanding in such instances.</p><ul><li>Germany: 2 - 3 working days</li><li>EU: 4 - 7 working days</li><li>UK: 8 working days</li><li>USA: 10 - 14 working days</li><li>Canada: 3 - 4 weeks</li><li>OZ: 4 - 6 weeks</li><li>Rest of the world: 2 weeks and up</li></ul><p>If you need assistance tracking your order, please check out our  <a href=\"https://staycoldapparel.aftership.com/\" target=\"_blank\" title=\"tracking page\">tracking page</a>.</p>"
+          }
+        },
+        "item_xpBrKB": {
+          "type": "item",
+          "settings": {
+            "title": "Do I have to pay customs duties if I order from outside the EU?",
+            "content": "<p><em>﻿Please note that import taxes and customs fees may apply if you order from a non-EU country. To avoid unexpected costs, please check the import regulations for your country in advance.</em></p>"
+          }
+        },
+        "item_nhmjN9": {
+          "type": "item",
+          "settings": {
+            "title": "I got a different, damaged or defective item. What to do?",
+            "content": "<p><em>If this happens, please contact our customer service a </em><a href=\"mailto:support@staycoldapparel.com\" target=\"_blank\">support@staycoldapparel.com</a><em> . We need your order number (#12345), a photo of the defective item and a description of the issue. If you received the wrong item, we also need a photo of the barcode on the bag of the product.</em></p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_eAttmW",
+        "item_HtFX3F",
+        "item_L6tK4F",
+        "item_E8MrFK",
+        "item_xpBrKB",
+        "item_nhmjN9"
+      ],
+      "custom_css": [
+        "img {border-radius: 999px;}"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Frequently Asked Questions",
+        "content": "",
+        "team_avatar": "shopify://shop_images/Lara_2.0_250x250px_square.jpg",
+        "team_avatar_width": 120,
+        "support_hours": "Hi, my name is Lara. Do you have any questions not answered in our FAQ? Drop me a line. I am happy to assist.",
+        "answer_time": "Quicklinks",
+        "button_text": "Track your order →",
+        "button_url": "https://www.staycoldapparel.com/apps/aftership",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "#ffffff",
+        "accordion_text_color": ""
+      }
+    },
+    "contact_cFzpy4": {
+      "type": "contact",
+      "name": "Contact form",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Contact Us",
+        "content": "",
+        "text_position": "center",
+        "contact_form_size": "small",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "#ffffff",
+        "contact_text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "media_with_text_enH7fB",
+    "related-products",
+    "image_link_blocks_Rrdjwn",
+    "faq_ycGkTp",
+    "contact_cFzpy4"
+  ]
+}

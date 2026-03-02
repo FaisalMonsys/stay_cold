@@ -1,0 +1,902 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section-16": {
+      "type": "blog-posts",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "subheading": "",
+        "title": "Blog posts",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all posts",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "media_with_text_4fYH8P": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_whRAhR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ReignOfBlood_grain_-BomberJacket17.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<h1>Armored in Confidence <br/>I Am Unstoppable.</h1><p>Defeat Conformity with Streetwear Fashion byThe Sickest Tattoo Art Clothing Brand of All.</p>",
+            "link_text": "Start Riot",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "rgba(0,0,0,0)",
+            "text_gradient": "",
+            "button_background": "#e52321",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_whRAhR"
+      ],
+      "custom_css": [
+        ".section-full {padding-top: 0px;}"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": true,
+        "alternate_media_position": false,
+        "spacing": "none"
+      }
+    },
+    "image_link_blocks_4GcDDn": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "item_N378XB": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/ReignOfBlood_grain_-BomberJacket35.jpg",
+            "stretch_image": false,
+            "link_text": "NEW DROPS",
+            "link_url": "",
+            "background": "#ffffff",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_4xeW3D": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/ReignOfBlood_grain_-BomberJacket35.jpg",
+            "stretch_image": false,
+            "link_text": "NEW DROPS",
+            "link_url": "",
+            "background": "#ffffff",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_kCrhzF": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/ReignOfBlood_grain_-BomberJacket35.jpg",
+            "stretch_image": false,
+            "link_text": "NEW DROPS",
+            "link_url": "",
+            "background": "#ffffff",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_HJ68jM": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/ReignOfBlood_grain_-BomberJacket35.jpg",
+            "stretch_image": false,
+            "link_text": "NEW DROPS",
+            "link_url": "",
+            "background": "#ffffff",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_eJUikN": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/ReignOfBlood_grain_-BomberJacket35.jpg",
+            "stretch_image": false,
+            "link_text": "NEW DROPS",
+            "link_url": "",
+            "background": "#ffffff",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "item_N378XB",
+        "item_4xeW3D",
+        "item_kCrhzF",
+        "item_HJ68jM",
+        "item_eJUikN"
+      ],
+      "custom_css": [
+        "img {border-radius: 999px; border: solid 1px #f2f2f2; width: 70px; max-height: 70px; object-fit: cover; object-position: center; margin: auto;}"
+      ],
+      "name": "Image link blocks",
+      "settings": {
+        "full_width": false,
+        "block_size": "small",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "featured_collection_eRmfwe": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "bestsellers-14d",
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 12,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "\"The Shit Right Now\"",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "featured_product_3iqahe": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor_NbijRy": {
+          "type": "vendor",
+          "disabled": true,
+          "settings": {}
+        },
+        "text_jFCdYG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ section.settings.product.vendor }}  | Jackets</p>"
+          }
+        },
+        "title_hXDPFF": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h5"
+          }
+        },
+        "badges_4fH3Np": {
+          "type": "badges",
+          "settings": {}
+        },
+        "offer_jy7WF9": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/avatar-25.png",
+            "icon_width": 48,
+            "title": "198.101+ wear our pieces & defeat conformity",
+            "content": "",
+            "background": "#f0eeef",
+            "text_color": "rgba(0,0,0,0)"
+          }
+        },
+        "variant_picker_UpQxUK": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "collapsible_text_MGqHVR": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "picto-comment",
+            "icon_width": 20,
+            "title": "Jacket designed by Maximilian Abraham (@staycold)",
+            "content": "<p>X</p>",
+            "page": ""
+          }
+        },
+        "collapsible_text_aFqxGV": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "picto-document",
+            "icon_width": 20,
+            "title": "Features",
+            "content": "<p>X</p>",
+            "page": ""
+          }
+        },
+        "collapsible_text_wAV9Rw": {
+          "type": "collapsible_text",
+          "disabled": true,
+          "settings": {
+            "icon": "picto-truck",
+            "icon_width": 20,
+            "title": "Worldwide Delivery within ~1 - 2 business days",
+            "content": "<p>X</p>",
+            "page": ""
+          }
+        },
+        "collapsible_text_i9mk3D": {
+          "type": "collapsible_text",
+          "disabled": true,
+          "settings": {
+            "icon": "picto-return",
+            "icon_width": 20,
+            "title": "30 Days Return Policy",
+            "content": "<p>X</p>",
+            "page": ""
+          }
+        },
+        "button_88dWPy": {
+          "type": "button",
+          "settings": {
+            "link": "{{ section.settings.product.url }}",
+            "text": "Unleash this product",
+            "size": "xl",
+            "style": "fill",
+            "stretch": false,
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "quantity_selector_jfhw3m": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "buy_buttons_yiTVtq": {
+          "type": "buy_buttons",
+          "disabled": true,
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_DX6FNH": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor_NbijRy",
+        "text_jFCdYG",
+        "title_hXDPFF",
+        "badges_4fH3Np",
+        "offer_jy7WF9",
+        "variant_picker_UpQxUK",
+        "collapsible_text_MGqHVR",
+        "collapsible_text_aFqxGV",
+        "collapsible_text_wAV9Rw",
+        "collapsible_text_i9mk3D",
+        "button_88dWPy",
+        "quantity_selector_jfhw3m",
+        "buy_buttons_yiTVtq",
+        "pickup_availability_DX6FNH"
+      ],
+      "name": "Featured product",
+      "settings": {
+        "full_width": true,
+        "product": "stay-cold-apparel-workwear-jacket-bone-forge-half-half",
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_bottom",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "image_link_blocks_tP77Lc": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "item_7RE4jR": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/ReignOfBlood_grain_-BomberJacket35.jpg",
+            "stretch_image": false,
+            "link_text": "NEW DROPS",
+            "link_url": "",
+            "background": "#ffffff",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_3KGRii": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/ReignOfBlood_grain_-BomberJacket35.jpg",
+            "stretch_image": false,
+            "link_text": "NEW DROPS",
+            "link_url": "",
+            "background": "#ffffff",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_PRKXW8": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/ReignOfBlood_grain_-BomberJacket35.jpg",
+            "stretch_image": false,
+            "link_text": "NEW DROPS",
+            "link_url": "",
+            "background": "#ffffff",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_z7JLzJ": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/ReignOfBlood_grain_-BomberJacket35.jpg",
+            "stretch_image": false,
+            "link_text": "NEW DROPS",
+            "link_url": "",
+            "background": "#ffffff",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_PxRxk3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/ReignOfBlood_grain_-BomberJacket35.jpg",
+            "stretch_image": false,
+            "link_text": "NEW DROPS",
+            "link_url": "",
+            "background": "#ffffff",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "item_7RE4jR",
+        "item_3KGRii",
+        "item_PRKXW8",
+        "item_z7JLzJ",
+        "item_PxRxk3"
+      ],
+      "custom_css": [
+        "img {border-radius: 999px; border: solid 1px #f2f2f2; width: 70px; max-height: 70px; object-fit: cover; object-position: center; margin: auto;}"
+      ],
+      "name": "Image link blocks",
+      "settings": {
+        "full_width": false,
+        "block_size": "small",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "collection_list_VmEf7U": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_8jey9g": {
+          "type": "collection",
+          "settings": {
+            "collection": "reign-of-blood-ultimate-drop",
+            "image": "shopify://shop_images/ReignOfBlood_drowned_-BomberJacket12.jpg",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h5",
+            "text_position": "place-self-end-start text-start",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_eUMKGY": {
+          "type": "collection",
+          "settings": {
+            "collection": "burpi_brepzy-x-stay-cold-collab",
+            "image": "shopify://shop_images/TheHollowBlaze_BurpiBrebzy_-OversizedT-Shirt_200GSM_-allover15.jpg",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h5",
+            "text_position": "place-self-end-start text-start",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_cJDy34": {
+          "type": "collection",
+          "settings": {
+            "collection": "shadow-division",
+            "image": "shopify://shop_images/NightOps-Boardshorts_Camo_27.jpg",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h5",
+            "text_position": "place-self-end-start text-start",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "collection_8jey9g",
+        "collection_eUMKGY",
+        "collection_cJDy34"
+      ],
+      "name": "Collection list",
+      "settings": {
+        "full_width": true,
+        "stack_collections": false,
+        "collections_per_row_mobile": "1",
+        "collections_per_row": 5,
+        "show_progress_bar": true,
+        "subheading": "",
+        "title": "Check Out our Latest Drops",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "1769443463dbea32a1": {
+      "type": "apps",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_grid_VrmyyH": {
+      "type": "media-grid",
+      "blocks": {
+        "video_V43Q6i": {
+          "type": "video",
+          "settings": {
+            "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "show_video_controls": false,
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "#",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_ii88Ln": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Dragonfly_blackwhite_-Scarf7.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "video_ymL9x8": {
+          "type": "video",
+          "settings": {
+            "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "show_video_controls": false,
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "#",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_E9hhYz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ReignOfBlood_grain_-BomberJacket30.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "video_iMpgwA": {
+          "type": "video",
+          "settings": {
+            "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "show_video_controls": false,
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "#",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_wRnkAA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Grimfall-HeavyOversizedHoodie_AcidWashed_400GSM2_476934fc-9473-4cf1-b7a5-cb89d330a6b7.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "video_wRyfiQ": {
+          "type": "video",
+          "settings": {
+            "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "show_video_controls": false,
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "#",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_iEcTpn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/LineageOfDusk_mentol_-HeavyOversizedHoodie_400GSM_23_416ff5c7-3489-46de-baf7-9c1f40e92587.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_mWEcKc": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_NeWxr3": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_gRQG3N": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ReignOfBlood_ocker_-OversizedHoodie_350GSM_-ocker155.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_DiGYGE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Dragonfly_blackwhite_-Scarf9.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "video_V43Q6i",
+        "image_ii88Ln",
+        "video_ymL9x8",
+        "image_E9hhYz",
+        "video_iMpgwA",
+        "image_wRnkAA",
+        "video_wRyfiQ",
+        "image_iEcTpn",
+        "image_mWEcKc",
+        "image_NeWxr3",
+        "image_gRQG3N",
+        "image_DiGYGE"
+      ],
+      "name": "Media grid",
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 400,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
+    "rich_text_QmmXUQ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_WwA8Mz": {
+          "type": "heading",
+          "settings": {
+            "text": "10 Years of Stay Cold Apparel",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_WwA8Mz"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "video_tKDYnX": {
+      "type": "video",
+      "blocks": {
+        "play_4VBgKN": {
+          "type": "play",
+          "settings": {}
+        },
+        "heading_BU3xC3": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Video",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "play_4VBgKN",
+        "heading_BU3xC3"
+      ],
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    }
+  },
+  "order": [
+    "section-16",
+    "media_with_text_4fYH8P",
+    "image_link_blocks_4GcDDn",
+    "featured_collection_eRmfwe",
+    "featured_product_3iqahe",
+    "image_link_blocks_tP77Lc",
+    "collection_list_VmEf7U",
+    "1769443463dbea32a1",
+    "media_grid_VrmyyH",
+    "rich_text_QmmXUQ",
+    "video_tKDYnX"
+  ]
+}
