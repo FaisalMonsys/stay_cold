@@ -37,6 +37,23 @@
       --product-gallery-media-list-gap: var(--grid-gutter);
     }
   }
+
+.product-info__price-line {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.free-shipping-badge {
+  background: #f59e0b;
+  color: #ffffff;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
 </style>
 
 {%- capture product_form_id -%}product-form-{{ product.id }}-{{ section.id }}{%- endcapture -%}
@@ -127,6 +144,19 @@ quick buy information in a template, that will be extracted in JS, but ensure it
           "id": "separator",
           "label": "Separator",
           "default": "|"
+        }
+      ]
+    },
+    {
+      "type": "free_shipping_badge",
+      "name": "Free Shipping Badge",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Badge Text",
+          "default": "Free Shipping"
         }
       ]
     },
