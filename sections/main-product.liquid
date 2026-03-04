@@ -1,4 +1,4 @@
-product{%- render 'section-spacing-collapsing' -%}
+{%- render 'section-spacing-collapsing' -%}
 
 <style>
   #shopify-section-{{ section.id }} {
@@ -116,6 +116,19 @@ quick buy information in a template, that will be extracted in JS, but ensure it
   "blocks": [
     {
       "type": "@app"
+    },
+    {
+      "type": "buybox_breadcrumb",
+      "name": "BuyBox Breadcrumb",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "separator",
+          "label": "Separator",
+          "default": "|"
+        }
+      ]
     },
     {
       "type": "vendor",

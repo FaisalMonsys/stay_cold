@@ -72,12 +72,34 @@ Supported variables
         {%- when '@app' -%}
           {%- render block -%}
 
-        {%- when 'vendor' -%}
+        {%- when 'buybox_breadcrumb' -%}
+        <div class="buybox__breadcrumb">
+          <!-- Brand -->
+          <a href="{{ collections['all'].url }}" class="buybox__brand">
+            {{ shop.name }}
+          </a>
+          <span class="buybox__separator">
+            {{ block.settings.separator }}
+          </span>
+          <!-- Dynamic Collection -->
+          {% if collection %}
+            {% assign current_collection = collection %}
+          {% else %}
+            {% assign current_collection = product.collections.first %}
+          {% endif %}
+          {% if current_collection %}
+            <a href="{{ current_collection.url }}" class="buybox__collection">
+              {{ current_collection.title }}
+            </a>
+          {% endif %}
+        </div>
+
+        {% comment %} {%- when 'vendor' -%}
           {%- if product.vendor != blank -%}
             <div class="product-info__vendor">
               {%- render 'vendor' with product.vendor -%}
             </div>
-          {%- endif -%}
+          {%- endif -%} {% endcomment %}
 
         {%- when 'title' -%}
           {%- if request.page_type == 'product' -%}
