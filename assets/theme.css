@@ -7,7 +7,7 @@
   font-size:14px;
   font-weight:600;
   display:block;
-  margin-bottom:6px;
+  margin-bottom:4px;
   color:#000;
 }
 
@@ -3973,6 +3973,12 @@ tfoot td {
   height: var(--spacing-3-5);
   border-radius: var(--rounded-full);
   background: var(--swatch-background) center / cover;
+}
+
+:checked + .block-swatch {
+  background: #000;
+  color: #fff;
+  border-color: #000;
 }
 
 @media screen and (min-width: 700px) {

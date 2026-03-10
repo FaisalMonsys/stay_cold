@@ -60,7 +60,7 @@ Supported variables
       %}
 
       <fieldset class="variant-picker__option">
-        <div class="variant-picker__option-info">
+        {% comment %} <div class="variant-picker__option-info">
           <div class="h-stack gap-2">
             <legend class="text-subdued">{{ option.name }}:</legend>
             <span>{{ option.selected_value }}</span>
@@ -81,7 +81,7 @@ Supported variables
               </div>
             </x-drawer>
           {%- endif -%}
-        </div>
+        </div> {% endcomment %}
 
         {%- if resolved_option_selector_style == 'dropdown' -%}
           {%- capture popover_id -%}popover-variant-picker-{{ section.id }}-{{ product.id }}-{{ option.position }}{%- endcapture -%}
