@@ -12,6 +12,18 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "free_shipping_badge_V8pCEh": {
+          "type": "free_shipping_badge",
+          "settings": {
+            "text": "Free Shipping"
+          }
+        },
+        "buybox_breadcrumb_6XRMGX": {
+          "type": "buybox_breadcrumb",
+          "settings": {
+            "separator": "|"
+          }
+        },
         "vendor_UhYyTr": {
           "type": "vendor",
           "settings": {}
@@ -73,7 +85,6 @@
             "text_alignment": "start",
             "icon_position": "aligned",
             "icon": "picto-coupon",
-            "custom_icon": "shopify://shop_images/avatar-27.png",
             "icon_width": 40,
             "title": "198.196+ wear our pieces & defeat conformity",
             "content": "",
@@ -175,6 +186,8 @@
         }
       },
       "block_order": [
+        "free_shipping_badge_V8pCEh",
+        "buybox_breadcrumb_6XRMGX",
         "vendor_UhYyTr",
         "badges",
         "text_3bQ4z4",
@@ -282,7 +295,6 @@
         "item_8hywKA": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/ReignOfBlood_grain_-BomberJacket35.jpg",
             "stretch_image": false,
             "link_text": "NEW DROPS",
             "link_url": "",
@@ -295,7 +307,6 @@
         "item_9fqBgf": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/ReignOfBlood_grain_-BomberJacket35.jpg",
             "stretch_image": false,
             "link_text": "NEW DROPS",
             "link_url": "",
@@ -308,7 +319,6 @@
         "item_yTPwNm": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/ReignOfBlood_grain_-BomberJacket35.jpg",
             "stretch_image": false,
             "link_text": "NEW DROPS",
             "link_url": "",
@@ -321,7 +331,6 @@
         "item_pqtpgU": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/ReignOfBlood_grain_-BomberJacket35.jpg",
             "stretch_image": false,
             "link_text": "NEW DROPS",
             "link_url": "",
@@ -334,7 +343,6 @@
         "item_DhAKMw": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/ReignOfBlood_grain_-BomberJacket35.jpg",
             "stretch_image": false,
             "link_text": "NEW DROPS",
             "link_url": "",
@@ -434,7 +442,6 @@
         "subheading": "",
         "title": "Frequently Asked Questions",
         "content": "",
-        "team_avatar": "shopify://shop_images/Lara_2.0_250x250px_square.jpg",
         "team_avatar_width": 120,
         "support_hours": "Hi, my name is Lara. Do you have any questions not answered in our FAQ? Drop me a line. I am happy to assist.",
         "answer_time": "Quicklinks",
