@@ -1,4 +1,33 @@
 /*! PhotoSwipe main CSS by Dmytro Semenov | photoswipe.com */
+.stock-urgency {
+  margin-top:8px;
+}
+
+.stock-msg {
+  font-size:14px;
+  font-weight:600;
+  display:block;
+  margin-bottom:6px;
+  color:#000;
+}
+
+.stock-progress {
+  width:100%;
+  height:8px;
+  background:#eee;
+  overflow:hidden;
+}
+
+.stock-bar {
+  height:100%;
+  transition: width .3s ease;
+}
+
+.few-left { background:#b91c1c; }
+.sold-soon { background:#ffb000; }
+.low-stock { background:#ea580c; }
+.selling-fast { background:#a1ff00; }
+.in-stock { background:#16a34a; }
 *, :before, :after {
   box-sizing: border-box;
   border-style: solid;
