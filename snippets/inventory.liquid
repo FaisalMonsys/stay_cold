@@ -15,7 +15,37 @@ Supported variables
 
 {%- if variant != blank -%}
   <variant-inventory>
-    {%- if variant.available -%}
+    {% assign qty = variant.inventory_quantity %}
+    {% assign progess_bar_class = "" %}
+
+    <div class="stock-urgency">
+      {% if qty < 25 %}
+        {% assign progess_bar_class = "few-left" %}
+        <span class="stock-msg">Only a few items left</span>
+      {% elsif qty < 50 %}
+        {% assign progess_bar_class = "sold-soon" %}
+        <span class="stock-msg">Sold out in a few days</span>
+      {% elsif qty < 75 %}
+        {% assign progess_bar_class = "low-stock" %}
+        <span class="stock-msg">Low Stock</span>
+      {% elsif qty <= 100 %}
+        {% assign progess_bar_class = "selling-fast" %}
+        <span class="stock-msg">Selling Fast</span>
+      {% else %}
+        {% assign progess_bar_class = "in-stock" %}
+        <span class="stock-msg">In Stock</span>
+      {% endif %}
+
+      <div class="stock-progress">
+        <div 
+          class="stock-bar {{ progess_bar_class }}"
+          style="width: {{ qty | at_most: 100 }}%;">
+        </div>
+      </div>
+    </div>
+
+
+    {% comment %} {%- if variant.available -%}
       {%- if variant.inventory_management and variant.inventory_policy == 'deny' and variant.inventory_quantity <= low_threshold and low_threshold > 0 -%}
         <span class="text-with-icon text-error">{%- render 'icon' with 'warning' -%} {{- 'product.inventory.low_stock_with_quantity_count' | t: count: variant.inventory_quantity -}}</span>
       {%- else -%}
@@ -37,6 +67,6 @@ Supported variables
       {%- else -%}
         <span class="text-with-icon text-warning">{%- render 'icon' with 'warning' -%} {{- 'product.inventory.oversell_stock' | t -}}</span>
       {%- endif -%}
-    {%- endif -%}
+    {%- endif -%} {% endcomment %}
   </variant-inventory>
 {%- endif -%}
